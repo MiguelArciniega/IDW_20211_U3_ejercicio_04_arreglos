@@ -46,7 +46,7 @@ model.read(students);
 
 /* 
 Eliminamos al estudiante con el número 
-de control 16400881 del arreglo 
+de control 16400935 del arreglo 
 */
 
 students = model.erase(student3.controlNumber, students);
@@ -76,8 +76,6 @@ model.read(students);
 
 // Mostramos al alumno que coincida con el número de control introducido
 model.readById(student2.controlNumber, students);
-
-// -------------------------- Read -----------------------------------
 
 // Mostramos a los alumnos aprovados
 model.showApproved(students);
