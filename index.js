@@ -74,8 +74,10 @@ model.read(students);
 
 // -------------------------- Read -----------------------------------
 
+// Mostramos al alumno que coincida con el número de control introducido
 model.readById(student2.controlNumber, students);
 
 // -------------------------- Read -----------------------------------
 
+// Mostramos a los alumnos aprovados
 model.showApproved(students);
